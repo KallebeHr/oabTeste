@@ -13,7 +13,7 @@ Configure `booking.url` com o link HTTPS público da agenda que o escritório j�
 Sem esse link, o formulário recebe uma preferência de data, período e formato. Isso é somente uma solicitação pelo WhatsApp, sujeita à confirmação humana. O site não oferece horários em tempo real, não bloqueia vagas e não envia lembretes. Para concluir essas funções é necessário conectar a agenda real; não coloque horários fictícios como disponíveis.
 
 ## Documentos
-
+ 
 Em `documentChecklists`, cada lista corresponde ao título exato de uma área de `practiceAreas`. As listas incluídas são rascunhos para revisão do advogado, inicialmente não publicados. Após revisar o conteúdo, preencha `reviewedBy`, `reviewedAt` (data da revisão) e altere `approved` para `true`. Sem os três campos, o site orienta o visitante a consultar o escritório. Não marque como revisado sem revisão real.
 
 O cliente pode marcar itens separados e baixar uma lista de texto. Não há upload de documentos.

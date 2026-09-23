@@ -1,23 +1,18 @@
-/**
- * CONFIGURAÇÃO CENTRAL DO SITE
- * Edite somente este arquivo para adaptar o projeto a um novo escritório.
- * Caminhos iniciados por "/" apontam para arquivos dentro da pasta public.
- */
 import { reactive } from 'vue'
 export const siteConfig = reactive({
   brand: {
-    officeName: 'Seu Nome Advocacia',
-    shortName: 'Seu Nome',
-    professionalName: 'Dr. Seu Nome',
+    officeName: 'Aguiar & Santos | Advocacia e Consultoria',
+    shortName: 'Aguiar & Santos',
+    professionalName: 'Aguiar & Santos',
     oab: 'OAB/PI 00.000',
-    logo: '',
-    initials: 'SN',
+    logo: '/LogoPNG1.png',
+    initials: 'AS',
     favicon: '/favicon.ico',
     developer: 'Max Sistemas',
   },
 
   theme: {
-    primary: '#c8102e',
+    primary: '#3D0810',
     primaryDark: '#6f1d2c',
     secondary: '#0b2547',
     accent: '#b79a65',
@@ -32,7 +27,7 @@ export const siteConfig = reactive({
     highlight: 'eficiente',
     subtitle: 'Compromisso com seus direitos, atendimento próximo e estratégias jurídicas responsáveis.',
     video: '/IMG-VIDEOS/Teste.mp4',
-    backgroundImage: '/media/banner-editorial.png',
+    backgroundImage: '/media/Banner.png',
     ctaLabel: 'Fale com nossa equipe',
     highlights: ['Ética', 'Compromisso', 'Defesa ágil'],
   },
@@ -54,11 +49,9 @@ export const siteConfig = reactive({
     mapZoom: 16,
   },
 
-  // Cole o link público da agenda real. Disponibilidade, confirmação e lembretes
-  // são gerenciados pelo serviço conectado. Vazio = solicitação pelo WhatsApp.
-  booking: { url: '', modes: ['Presencial', 'Por vídeo'] },
 
-  // O advogado deve editar e aprovar cada lista antes de exibi-la ao público.
+  booking: { url: 'https://calendar.app.google/AKAQmEPSnxWeeRo7A', modes: ['Presencial', 'Por vídeo'] },
+
   documentChecklists: [
     { area: 'Direito Civil', approved: false, reviewedBy: '', reviewedAt: '', items: ['Documento de identificação', 'Contrato ou documento relacionado ao assunto', 'Comprovantes e comunicações relacionados ao caso'] },
     { area: 'Direito Trabalhista', approved: false, reviewedBy: '', reviewedAt: '', items: ['Documento de identificação', 'Carteira de trabalho e contrato, se disponíveis', 'Comprovantes de pagamento e documentos relacionados à demanda'] },
@@ -68,7 +61,6 @@ export const siteConfig = reactive({
     { area: 'Direito Tributário', approved: false, reviewedBy: '', reviewedAt: '', items: ['Documento de identificação', 'Notificações e documentos fiscais relacionados', 'Número do procedimento, se disponível'] },
   ],
 
-  // Use o mesmo índice de team. Não publique formação ou registro fictícios.
   professionalProfiles: [
     { slug: 'profissional-civil', registration: '', education: [], areas: ['Direito Civil'], biography: '', email: '', whatsapp: '' },
     { slug: 'profissional-familia', registration: '', education: [], areas: ['Direito de Família'], biography: '', email: '', whatsapp: '' },
@@ -84,7 +76,7 @@ export const siteConfig = reactive({
 
   about: {
     title: 'Compromisso permanente com seus direitos',
-    photo: '/media/equipe-editorial.png',
+    photo: '/media/Equipe.png',
     photoAlt: 'Imagem ilustrativa de uma equipe jurídica em reunião',
     text: 'Acreditamos que uma boa orientação começa pela escuta. Unimos conhecimento técnico e atenção às particularidades de cada situação para construir caminhos jurídicos responsáveis.',
     subtitle: 'Atuação jurídica pautada por técnica, transparência e proximidade com cada cliente.',
@@ -118,9 +110,9 @@ export const siteConfig = reactive({
   ],
 
   team: [
-    { name: 'Dr. Seu Nome', role: 'Advogado | Direito Civil', description: 'Atuação estratégica com atendimento próximo e transparente.', photo: '/IMGADV/1.jpg', instagram: '', linkedin: '' },
-    { name: 'Dra. Seu Nome', role: 'Advogada | Direito de Família', description: 'Atuação técnica e sensível em demandas familiares e sucessórias.', photo: '/IMGADV/2.jpg', instagram: '', linkedin: '' },
-    { name: 'Dr. Seu Nome', role: 'Advogado | Direito Empresarial', description: 'Assessoria preventiva e contenciosa para empresas e empreendedores.', photo: '/IMGADV/3.jpg', instagram: '', linkedin: '' },
+    { name: 'Aguiar & Santos', role: 'Advogada | Direito Civil', description: 'Atuação estratégica com atendimento próximo e transparente.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
+    { name: 'Aguiar & Santos', role: 'Advogada | Direito de Família', description: 'Atuação técnica e sensível em demandas familiares e sucessórias.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
+    { name: 'Aguiar & Santos', role: 'Advogada | Direito Empresarial', description: 'Assessoria preventiva e contenciosa para empresas e empreendedores.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
   ],
 
   testimonials: [
