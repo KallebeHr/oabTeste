@@ -110,9 +110,9 @@ export const siteConfig = reactive({
   ],
 
   team: [
-    { name: 'Aguiar & Santos', role: 'Advogada | Direito Civil', description: 'Atuação estratégica com atendimento próximo e transparente.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
-    { name: 'Aguiar & Santos', role: 'Advogada | Direito de Família', description: 'Atuação técnica e sensível em demandas familiares e sucessórias.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
-    { name: 'Aguiar & Santos', role: 'Advogada | Direito Empresarial', description: 'Assessoria preventiva e contenciosa para empresas e empreendedores.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
+    { name: 'Flavia Luara', role: 'Advogada | Direito Civil', description: 'Atuação estratégica com atendimento próximo e transparente.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
+    { name: 'Flavia Luara', role: 'Advogada | Direito de Família', description: 'Atuação técnica e sensível em demandas familiares e sucessórias.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
+    { name: 'Flavia Luara', role: 'Advogada | Direito Empresarial', description: 'Assessoria preventiva e contenciosa para empresas e empreendedores.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
   ],
 
   testimonials: [
