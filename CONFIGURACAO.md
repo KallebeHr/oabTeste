@@ -18,6 +18,9 @@ Abra `src/config/siteConfig.js`. Os dados são reativos: alterações feitas nes
 | `whatsappWidget` | Mensagens, atraso inicial e intervalo em milissegundos |
 | `serviceJourney` | Etapas exibidas em “Entenda como funciona” |
 | `faq` | Perguntas e respostas frequentes |
+| `linkBio` | Apresentação, capa, mensagem do WhatsApp e atalhos da página `/#/linkbio` |
+
+A página de link na bio está documentada em `LINKBIO.md`. Seus cartões usam as listas `team` e `professionalProfiles`, com limite de três profissionais.
 
 Fotos e logos ficam em `public`. Exemplo: `public/cliente/logo.png` usa o caminho `/cliente/logo.png`. Com `brand.logo` vazio, aparece a identificação textual com as iniciais.
 

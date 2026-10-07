@@ -14,6 +14,7 @@ declare module 'vue' {
     FooterSection: typeof import('./src/components/FooterSection.vue')['default']
     HeaderNavigation: typeof import('./src/components/HeaderNavigation.vue')['default']
     InstitutionalSite: typeof import('./src/components/InstitutionalSite.vue')['default']
+    LinkBioPage: typeof import('./src/components/LinkBioPage.vue')['default']
     OfficeMap: typeof import('./src/components/OfficeMap.vue')['default']
     PracticeAreas: typeof import('./src/components/PracticeAreas.vue')['default']
     ProfessionalPage: typeof import('./src/components/ProfessionalPage.vue')['default']

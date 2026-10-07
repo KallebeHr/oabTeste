@@ -1,18 +1,18 @@
 import { reactive } from 'vue'
 export const siteConfig = reactive({
   brand: {
-    officeName: 'Aguiar & Santos | Advocacia e Consultoria',
-    shortName: 'Aguiar & Santos',
-    professionalName: 'Aguiar & Santos',
-    oab: 'OAB/PI 00.000',
-    logo: '/LogoPNG1.png',
-    initials: 'AS',
+    officeName: 'Miguel Barudi | OAB/PR 46.813',
+    shortName: 'Miguel Barudi',
+    professionalName: 'Miguel Barudi',
+    oab: 'OAB/PR 46.813',
+    // logo: '/LogoPNG1.png',
+    initials: 'MB',
     favicon: '/favicon.ico',
     developer: 'Max Sistemas',
   },
 
   theme: {
-    primary: '#3D0810',
+    primary: '#031622',
     primaryDark: '#6f1d2c',
     secondary: '#0b2547',
     accent: '#b79a65',
@@ -27,7 +27,7 @@ export const siteConfig = reactive({
     highlight: 'eficiente',
     subtitle: 'Compromisso com seus direitos, atendimento próximo e estratégias jurídicas responsáveis.',
     video: '/IMG-VIDEOS/Teste.mp4',
-    backgroundImage: '/media/Banner.png',
+    backgroundImage: '/media/Banner2.png',
     ctaLabel: 'Fale com nossa equipe',
     highlights: ['Ética', 'Compromisso', 'Defesa ágil'],
   },
@@ -38,17 +38,16 @@ export const siteConfig = reactive({
     whatsapp: '5586123456789',
     whatsappMessage: 'Olá! Vim pelo site e gostaria de falar com a equipe jurídica.',
     email: 'contato@seuescritorio.com.br',
-    address: 'Rua dos Advogados, 123 - Centro',
-    city: 'Pedro II - PI',
-    zipCode: '64255-000',
+    address: 'Rua Bartolomeu de Gusmão, 1509 - 3 ° Andar - Sala 10 - Centro',
+    city: 'Paraná',
+    zipCode: '85852-130',
     businessHours: 'Segunda a sexta, das 8h às 18h',
     emergencyPhone: '(86) 12345-6789',
     mapUrl: 'https://www.google.com/maps/dir/?api=1&destination=-4.4250,-41.4586',
-    latitude: -4.4250,
+    latitude: -4.425,
     longitude: -41.4586,
     mapZoom: 16,
   },
-
 
   booking: { url: 'https://calendar.app.google/AKAQmEPSnxWeeRo7A', modes: ['Presencial', 'Por vídeo'] },
 
@@ -74,9 +73,27 @@ export const siteConfig = reactive({
     x: '',
   },
 
+  // Página independente em /#/linkbio. Campos vazios reaproveitam o site.
+  linkBio: {
+    title: '', // Vazio: brand.shortName.
+    eyebrow: 'Advocacia e Consultoria',
+    description: 'Orientação clara, escuta atenta e compromisso com seus direitos.',
+    coverImage: '', // Vazio: about.photo. Caminho de uma imagem em public.
+    coverAlt: '', // Vazio: about.photoAlt.
+    teamTitle: 'Fale com nossos advogados',
+    whatsappMessage: 'Olá! Vim pelo link da bio e gostaria de falar com a equipe jurídica.',
+    // Mostra no máximo 3 pessoas de team. Para ocultar uma, use linkBio: false nela.
+    quickLinks: [
+      { label: 'Conheça nosso site', description: 'O escritório e nossa atuação', href: '#inicio', icon: 'mdi-web' },
+      { label: 'Agendar atendimento', description: 'Presencial ou por vídeo', href: '#agendamento', icon: 'mdi-calendar-outline' },
+      { label: 'Áreas de atuação', description: 'Como podemos ajudar você', href: '#areas', icon: 'mdi-scale-balance' },
+      { label: 'Prepare seu atendimento', description: 'Documentos e orientações iniciais', href: '#documentos', icon: 'mdi-file-document-outline' },
+    ],
+  },
+
   about: {
     title: 'Compromisso permanente com seus direitos',
-    photo: '/media/Equipe.png',
+    photo: '/media/Equipe2.png',
     photoAlt: 'Imagem ilustrativa de uma equipe jurídica em reunião',
     text: 'Acreditamos que uma boa orientação começa pela escuta. Unimos conhecimento técnico e atenção às particularidades de cada situação para construir caminhos jurídicos responsáveis.',
     subtitle: 'Atuação jurídica pautada por técnica, transparência e proximidade com cada cliente.',
@@ -110,9 +127,9 @@ export const siteConfig = reactive({
   ],
 
   team: [
-    { name: 'Flavia Luara', role: 'Advogada | Direito Civil', description: 'Atuação estratégica com atendimento próximo e transparente.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
-    { name: 'Flavia Luara', role: 'Advogada | Direito de Família', description: 'Atuação técnica e sensível em demandas familiares e sucessórias.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
-    { name: 'Flavia Luara', role: 'Advogada | Direito Empresarial', description: 'Assessoria preventiva e contenciosa para empresas e empreendedores.', photo: '/IMGADV/2.png', instagram: '', linkedin: '' },
+    { name: 'Miguel Barudi', role: 'Advogado | Direito Civil', description: 'Atuação estratégica com atendimento próximo e transparente.', photo: '/IMGADV/3.png', instagram: '', linkedin: '' },
+    { name: 'Miguel Barudi', role: 'Advogado | Direito de Família', description: 'Atuação técnica e sensível em demandas familiares e sucessórias.', photo: '/IMGADV/3.png', instagram: '', linkedin: '' },
+    { name: 'Miguel Barudi', role: 'Advogado | Direito Empresarial', description: 'Assessoria preventiva e contenciosa para empresas e empreendedores.', photo: '/IMGADV/3.png', instagram: '', linkedin: '' },
   ],
 
   testimonials: [
@@ -122,10 +139,10 @@ export const siteConfig = reactive({
   ],
 
   seo: {
-    title: 'Seu Nome Advocacia | Atendimento jurídico',
+    title: 'Miguel Barudi | Atendimento jurídico',
     description: 'Escritório de advocacia com atendimento estratégico, ético e humanizado.',
   },
-  whatsappWidget: { messages: ['Precisa de orientação? Converse com nossa equipe.', 'Estamos à disposição para esclarecer suas dúvidas.'], firstDelay: 12000, interval: 60000 },
+  whatsappWidget: { messages: ['Precisa de orientação? Converse com nossa equipe.', 'Estamos à disposição para esclarecer suas dúvidas.'], firstDelay: 12_000, interval: 60_000 },
 })
 
 export const whatsappUrl = () => {
