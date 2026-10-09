@@ -41,7 +41,7 @@ export const siteConfig = reactive({
     whatsappMessage: 'Olá! Vim pelo site da Ramon Bastos Advocacia Agro e gostaria de orientação jurídica sobre uma questão rural.',
     email: 'contato@seuescritorio.com.br',
     address: 'Rua Bartolomeu de Gusmão, 1509 - 3 ° Andar - Sala 10 - Centro',
-    city: 'Paraná',
+    city: 'Paraíba / Maranhão',
     zipCode: '85852-130',
     businessHours: 'Segunda a sexta, das 8h às 18h',
     emergencyPhone: '(83) 99129-5236',
